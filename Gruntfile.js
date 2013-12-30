@@ -346,8 +346,8 @@ module.exports = function (grunt) {
             dist: [
                 'compass',
                 'copy:styles',
-                'imagemin',
-                'svgmin'
+                'imagemin'
+                //'svgmin'
             ]
         }
     });
