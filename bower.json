@@ -1,0 +1,12 @@
+{
+  "name": "john",
+  "private": true,
+  "dependencies": {
+    "sass-bootstrap": "~3.0.0",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2"
+  },
+  "devDependencies": {
+    "hammerjs": "~1.0.5"
+  }
+}

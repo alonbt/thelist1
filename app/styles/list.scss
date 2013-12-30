@@ -1,0 +1,23 @@
+#list {
+	color: #2e2e2e;
+	text-shadow: 0 1px 0 #FFF;
+	height: 100%;
+	overflow: scroll;
+	position: absolute;
+	width: 100%;
+	
+	ul {
+		margin: 70px 0 0;
+		padding: 0;
+		li {
+			font-size: 3em;
+			padding: 20px 10px;
+			border-top: 1px solid #eee;
+			box-shadow: 0 -1px 0 #bbb;
+			&.selected {
+				background: #dcdcdc;
+				color: #772295;
+			}
+		}
+	}
+}
