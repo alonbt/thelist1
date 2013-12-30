@@ -9,3 +9,4 @@ app.get('/', function(req, res){
 });
 app.use('/', express.static(__dirname + '/dist'));
 app.listen(port);
+console.log(port);
